@@ -7,7 +7,6 @@ import { Card, CardContent } from "@components/ui/card"
 import { Input } from "@components/ui/input"
 import { Textarea } from "@components/ui/textarea"
 import { Button } from "@components/ui/button"
-import { useToast } from "../hooks/use-toast"
 import { MailIcon, PhoneIcon, MapPinIcon, SendIcon } from "lucide-react"
 
 export default function Contact() {

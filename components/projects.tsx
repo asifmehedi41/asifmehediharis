@@ -75,7 +75,7 @@ export default function Projects() {
         </h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-          A showcase of my recent projects and applications I've built.
+          A showcase of my recent projects and applications I have built.
         </p>
       </motion.div>
 
