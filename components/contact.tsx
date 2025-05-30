@@ -11,14 +11,13 @@ import { useToast } from "../hooks/use-toast"
 import { MailIcon, PhoneIcon, MapPinIcon, SendIcon } from "lucide-react"
 
 export default function Contact() {
-  const { toast } = useToast()
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
   })
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting] = useState(false)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
