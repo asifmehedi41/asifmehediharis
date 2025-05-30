@@ -1,11 +1,9 @@
 "use client"
-
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Button } from "@components/ui/button"
 import { motion } from "framer-motion"
-import { GithubIcon, LinkedinIcon, MailIcon, FileTextIcon, ArrowRightIcon, InstagramIcon, XIcon, TwitterIcon } from "lucide-react"
-//import AsifIMG from "@/images/asif.jpeg"
+import { GithubIcon, LinkedinIcon, InstagramIcon, TwitterIcon, ArrowRightIcon } from "lucide-react"
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("")
@@ -57,7 +55,6 @@ export default function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
               Hi, I'm <span className="text-primary">Asif Mehedi Haris</span>
             </h1>
-            
 
             <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6 h-8">
               {typedText}
@@ -101,7 +98,6 @@ export default function Hero() {
                   <TwitterIcon className="h-5 w-5" />
                 </a>
               </Button>
-              
             </div>
           </motion.div>
 

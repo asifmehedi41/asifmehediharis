@@ -1,5 +1,4 @@
 "use client"
-
 import { useState } from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -15,7 +14,7 @@ export default function Projects() {
     {
       title: "Hospital Management System",
       description:
-        "A comprehensive system for managing hospital operations including patient ,doctor, and appointment management.",
+        "A comprehensive system for managing hospital operations including patient, doctor, and appointment management.",
       image: "/images/hospital.jpg?height=400&width=600",
       category: "web",
       technologies: ["Angular", "ASP.NET", "SQL Server", "Tailwind CSS"],
@@ -27,7 +26,7 @@ export default function Projects() {
       description: "A responsive e-learning platform with course management, user & Teacher & Admin Profile.",
       image: "/images/AfterLoginPage.png?height=800&width=600",
       category: "web",
-      technologies: ["Next", "Asp.NET","SQL Server", "Tailwind CSS","Typescript"],
+      technologies: ["Next", "Asp.NET", "SQL Server", "Tailwind CSS", "Typescript"],
       github: "#",
       demo: "#",
     },
@@ -36,7 +35,7 @@ export default function Projects() {
       description: "A simple CRUD application for managing products.",
       image: "/images/productshow.png?height=400&width=600",
       category: "web",
-      technologies: ["ASP.NET Core", "MVC","Tailwind CSS"],
+      technologies: ["ASP.NET Core", "MVC", "Tailwind CSS"],
       github: "#",
       demo: "#",
     },

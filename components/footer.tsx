@@ -1,6 +1,8 @@
+"use client"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@components/ui/button"
-import { GithubIcon, LinkedinIcon, TwitterIcon, InstagramIcon, HeartIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon, TwitterIcon, InstagramIcon } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -11,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
             <Link href="/#" className="text-2xl font-bold text-gray-900 dark:text-white flex items-center">
-              <img src="./images/logoasif.png" alt="Logo" className="mr-2 h-8" />
+              <Image src="/images/logoasif.png" alt="Logo" width={32} height={32} className="mr-2" />
               Asif<span className="text-primary">.dev</span>
             </Link>
 

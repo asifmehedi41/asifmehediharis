@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@components/ui/card"
 import { BriefcaseIcon, CalendarIcon, MapPinIcon } from "lucide-react"
@@ -12,8 +11,8 @@ export default function Experience() {
       period: "23-02-2025 - Present",
       location: "Uttara, Dhaka, Bangladesh",
       description: [
-        "Recently completed a project of E-learning system using NextJS,ASP.NET and SQL server",
-        "Developing web applications using React,nextJS, AngularJS, ASP.NET, and SQL Server",
+        "Recently completed a project of E-learning system using NextJS, ASP.NET and SQL server",
+        "Developing web applications using React, NextJS, AngularJS, ASP.NET, and SQL Server",
         "Collaborating with cross-functional teams to define, design, and ship new features",
         "Implementing responsive design and ensuring cross-browser compatibility",
         "Participating in code reviews and providing constructive feedback to other developers",
@@ -39,8 +38,8 @@ export default function Experience() {
       description: [
         "Developed a university Vehicle Tracking system as part of a team project",
         "Implemented database design and management using MySQL",
-        "Created responsive E-coommerce Website using MERN stack",
-        "Successfully completed thesis on 'Meta-heuristic Algorithm to predict RNA secondary structure'",
+        "Created responsive E-commerce Website using MERN stack",
+        "Successfully completed thesis on &lsquo;Meta-heuristic Algorithm to predict RNA secondary structure&rsquo;",
         "Collaborated with team members using Git for version control",
       ],
     },
@@ -60,7 +59,7 @@ export default function Experience() {
         </h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-          My professional journey and the companies I've worked with.
+          My professional journey and the companies I have worked with.
         </p>
       </motion.div>
 
