@@ -53,7 +53,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-              Hi, Myself <span className="text-primary">Asif Mehedi Haris</span>
+              Hi, I'm <span className="text-primary">Asif Mehedi Haris</span>
             </h1>
 
             <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6 h-8">
