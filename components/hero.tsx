@@ -37,7 +37,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 px-14">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-0 md:pt-16 md:py-16 px-4 md:px-14">
       {/* Background elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full filter blur-3xl opacity-70"></div>

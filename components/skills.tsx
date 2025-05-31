@@ -47,7 +47,7 @@ export default function Skills() {
   }
 
   return (
-    <section id="skills" className="py-16 px-14">
+    <section id="skills" className="py-4 px-12 md:px-14">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -75,28 +75,28 @@ export default function Skills() {
           </TabsList>
         </div> */}
          <div className="flex justify-center mb-8">
-  <TabsList className="grid grid-cols-2 md:grid-cols-4 w-full max-w-2xl border border-gray-700 rounded-lg">
+  <TabsList className="grid grid-cols-2 md:grid-cols-4 w-full max-w-2xl ">
     <TabsTrigger
       value="languages"
-      className="px-6 py-1 text-center text-gray-400 bg-transparent transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
+      className="px-6 py-1 text-center text-gray-400 bg-transparent border border-gray-700 transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
     >
       Languages
     </TabsTrigger>
     <TabsTrigger
       value="frontend"
-      className="px-6 py-1 text-center text-gray-400 bg-transparent transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
+      className="px-6 py-1 text-center text-gray-400 bg-transparent border border-gray-700 transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
     >
       Frontend
     </TabsTrigger>
     <TabsTrigger
       value="backend"
-      className="px-6 py-1 text-center text-gray-400 bg-transparent transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
+      className="px-6 py-1 text-center text-gray-400 bg-transparent border border-gray-700 transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
     >
       Backend
     </TabsTrigger>
     <TabsTrigger
       value="tools"
-      className="px-6 py-1 text-center text-gray-400 bg-transparent transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
+      className="px-6 py-1 text-center text-gray-400 bg-transparent border border-gray-700 transition-all duration-300 hover:bg-gray-700 hover:text-white active:bg-blue-600 active:text-white rounded-t-lg"
     >
       Tools
     </TabsTrigger>

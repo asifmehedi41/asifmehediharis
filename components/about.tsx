@@ -6,7 +6,7 @@ import { Card, CardContent } from "@components/ui/card"
 
 export default function About() {
   return (
-    <section id="about" className="py-16 px-14">
+    <section id="about" className="py-4 px-14 md:px-14">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

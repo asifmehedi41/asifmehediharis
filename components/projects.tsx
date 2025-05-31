@@ -62,7 +62,7 @@ export default function Projects() {
   const filteredProjects = filter === "all" ? projects : projects.filter((project) => project.category === filter)
 
   return (
-    <section id="projects" className="py-16 px-14">
+    <section id="projects" className="py-4 px-4 md:px-14">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
